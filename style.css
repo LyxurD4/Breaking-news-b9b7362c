@@ -34,4 +34,8 @@ h1 {
 .news {
     width: 33%;
 }
+#breaking {
+    display: flex;
+    background-color: red;
+}
 
