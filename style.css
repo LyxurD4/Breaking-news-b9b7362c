@@ -21,6 +21,7 @@ body {
     justify-content: center;
 }
 .content p {
+    order: 3;
     padding: 20px;
 } 
 .content h3 {
@@ -28,14 +29,23 @@ body {
 }
 h1 {
     display: flex;
+    order: 2;
     justify-content: center;
     width: 100%;
 }
 .news {
     width: 33%;
+    order: 4;
 }
-#breaking {
+div#breaking {
+    order: 1;
+}
+#breaking > h3 {
     display: flex;
-    background-color: red;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
 }
-
+#breaking > p {
+    font-size: 20px;
+}
